@@ -13,7 +13,7 @@ function SingleDrink({ drink }) {
         src={imgSrc}
         width={300}
         height={300}
-        className="w-48 h-48 rounded-lg shadow-lg"
+        className="w-48 h-48 rounded-lg shadow-lg object-cover"
         priority
         alt={title}
       />

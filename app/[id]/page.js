@@ -8,7 +8,7 @@ async function page({ params }) {
     viewDataCleaner(data);
 
   return (
-    <div className="flex justify-center flex-col w-3/12 mb-16 gap-y-4">
+    <div className="flex justify-center flex-col sm:w-3/12 mb-16 gap-y-4">
       <h1 className="text-center text-4xl font-bold mb-4">{title}</h1>
       <img className="shadow-lg rounded-lg" src={image} alt="" />
       <h2 className="font-bold">

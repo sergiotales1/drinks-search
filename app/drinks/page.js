@@ -16,11 +16,11 @@ function DrinksPage() {
   }
 
   return (
-    <article className="w-2/4 text-center">
+    <article className=" text-center">
       <h1 className="text-4xl">Search for one drink!</h1>
       <form className="block" action="">
         <input
-          className="border-4 outline-none mt-4 rounded-lg block w-full"
+          className="border-4 outline-none my-4 p-1 rounded-lg block w-full"
           type="text"
           onChange={handlerInputChange}
         />
